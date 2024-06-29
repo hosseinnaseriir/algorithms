@@ -9,5 +9,5 @@ function fibonacci(n) {
     // O(1)
     return fib;
 };
-// Big-O O(n)
+// Big-O = O(n)
 console.log(fibonacci(7));

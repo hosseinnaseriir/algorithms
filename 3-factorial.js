@@ -9,6 +9,6 @@ function factorial(n) {
     // O(1)
     return result;
 };
-// Big-O O(n)
+// Big-O = O(n)
 
 console.log(factorial(2));
