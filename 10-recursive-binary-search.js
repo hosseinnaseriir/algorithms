@@ -15,7 +15,7 @@ function search(arr, target, leftIndex, rightIndex) {
     let middleIndex = Math.floor((leftIndex + rightIndex) / 2);
     if (target === arr[middleIndex]) return middleIndex;
     if (target > arr[middleIndex]) return search(arr, target, middleIndex + 1, rightIndex)
-    if (target < arr[middleIndex]) return search(arr, target, leftIndex, middleIndex - 1)
+    else return search(arr, target, leftIndex, middleIndex - 1)
 }
 
 // Big-O = O(log n)               0                  middle                  11
